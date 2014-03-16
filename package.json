@@ -1,0 +1,51 @@
+{
+  "name": "machinist-js-mongodb",
+  "description": "Implementation of MongoDB DataStore for machinist-js project for Node and JavaScript projects",
+  "keywords": [
+    "testing",
+    "node",
+    "machinist",
+    "fixtures",
+    "data",
+    "tests",
+    "MongoDB"
+  ],
+  "version": "0.0.1",
+  "homepage": "http://github.com/derptest/machinist-js-mongodb",
+  "author": "Warner Onstine <warner@warneronstine.com> (http://warneronstine.com)",
+  "contributors": [
+    "Adam Englander <adam.englander@coupla.com> (http://adamknowsstuff.com)",
+    "Warner Onstine <warner@warneronstine.com> (http://www.warneronstine.com)"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/derptest/machinist-js-mongodb.git"
+  },
+  "bugs": {
+    "url": "http://github.com/derptest/machinist-js-mongodb/issues"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib/",
+  "engines": {
+    "node": "0.6 || 0.8 || 0.10 || 0.11"
+  },
+  "dependencies" : {
+    "machinist-js": "git://github.com/derptest/machinist-js",
+    "mongodb": "*"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "mocha": "*",
+    "should": "*",
+    "blanket": "*"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/derptest/machinist-js-mongodb/LICENSE"
+    }
+  ],
+  "optionalDependencies": {}
+}

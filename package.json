@@ -33,7 +33,8 @@
   },
   "dependencies" : {
     "machinist-js": "git://github.com/derptest/machinist-js",
-    "mongodb": "*"
+    "mongodb": "*",
+    "q": "*"
   },
   "devDependencies": {
     "grunt": "~0.4.1",

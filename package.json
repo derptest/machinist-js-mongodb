@@ -37,7 +37,10 @@
     "q": "*"
   },
   "devDependencies": {
-    "grunt": "~0.4.1",
+    "gulp": "*",
+    "gulp-mocha": "*",
+    "gulp-jshint": "*",
+    "gulp-exit":"*",
     "mocha": "*",
     "should": "*",
     "blanket": "*"

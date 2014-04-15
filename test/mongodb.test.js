@@ -183,7 +183,7 @@ describe("Machinist API", function(){
     });
 
     it("clearAll: it should clear all the collections", function(done){
-        this.timeout(20000);
+        this.timeout(4000);
         var promise = machinist.stores.default.clearAll();
         promise.then(
             function() {

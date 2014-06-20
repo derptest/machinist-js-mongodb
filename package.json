@@ -10,7 +10,7 @@
     "tests",
     "MongoDB"
   ],
-  "version": "0.1a",
+  "version": "0.1.0",
   "homepage": "http://github.com/derptest/machinist-js-mongodb",
   "author": "Warner Onstine <warner@warneronstine.com> (http://warneronstine.com)",
   "contributors": [
